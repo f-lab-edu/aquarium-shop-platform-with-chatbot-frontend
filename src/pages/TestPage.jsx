@@ -73,30 +73,6 @@ export default function TestPage() {
             )}
           </div>
         </div>
-
-        {/* API 정보 */}
-        <div className="mt-8 bg-white shadow rounded-lg p-6">
-          <h2 className="text-lg font-medium text-gray-900 mb-4">API 엔드포인트 정보</h2>
-
-          <div className="space-y-3">
-            <div className="flex justify-between py-2 border-b">
-              <span className="text-sm font-medium text-gray-500">Health Check:</span>
-              <span className="text-sm text-gray-900 font-mono">GET /health</span>
-            </div>
-            <div className="flex justify-between py-2 border-b">
-              <span className="text-sm font-medium text-gray-500">회원가입:</span>
-              <span className="text-sm text-gray-900 font-mono">POST /users</span>
-            </div>
-            <div className="flex justify-between py-2 border-b">
-              <span className="text-sm font-medium text-gray-500">로그인:</span>
-              <span className="text-sm text-gray-900 font-mono">POST /login</span>
-            </div>
-            <div className="flex justify-between py-2">
-              <span className="text-sm font-medium text-gray-500">토큰 갱신:</span>
-              <span className="text-sm text-gray-900 font-mono">POST /token/refresh</span>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   );
